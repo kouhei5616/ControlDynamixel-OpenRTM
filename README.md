@@ -1,5 +1,8 @@
 # ControlDynamixel-OpenRTM
 
+Dynamixelを位置制御するOpenRTMコンポーネントです。
+
+
 ControlDynamixel：pythonで作成したDynamixelを制御するコンポーネント
 入力：angle_input　位置制御の角度指令[deg]
 出力：なし
