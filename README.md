@@ -6,7 +6,7 @@ Dynamixelを位置制御するOpenRTMコンポーネントです。
 　pythonで作成したDynamixelを制御するコンポーネント
 　入力：angle_input　位置制御の角度指令[deg]
 　出力：なし
-　パラメータ：
+　パラメータ：<br>
  　　DXL_ID　->　DynamixelのID
    　ADDR_MX_TORQUE_ENABLE　->　TORQUE_ENABLEのアドレス
    　ADDR_MX_GOAL_POSITION　->　GOAL_POSITIONのアドレス
