@@ -2,7 +2,7 @@
 
 Dynamixelを位置制御するOpenRTMコンポーネントです。
 
-・ControlDynamixel
+・ControlDynamixel<br>
 　pythonで作成したDynamixelを制御するコンポーネント<br>
 　入力：angle_input　位置制御の角度指令[deg]<br>
 　出力：なし<br>
@@ -15,7 +15,7 @@ Dynamixelを位置制御するOpenRTMコンポーネントです。
 　　DEVICENAME　->　USB接続時の名前<br>
 　　DXL_MOVING_STATUS_THRESHOLD　->　到達判定の閾値<br>
 
-・Test：
+・Test<br>
 　ControlDynamixelコンポーネントをテストする用のコンポーネント<br>
 　入力：なし<br>
 　出力：angle_output　位置制御の角度指令[deg]<br>
