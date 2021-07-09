@@ -1,6 +1,6 @@
 # ControlDynamixel-OpenRTM
 
-Dynamixelを位置制御するOpenRTMコンポーネントです。
+Dynamixelを位置制御するOpenRTMコンポーネントです。<br>
 name-serverを起動後にControlDynamixel.pyを起動して、OpenRTMで配置してください。
 
 ・ControlDynamixel<br>
