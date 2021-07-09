@@ -1,0 +1,26 @@
+2021-07-09 17:33:30,989 file.manager INFO 1.2.2
+2021-07-09 17:33:30,989 file.manager INFO Copyright (C) 2003-2020, Noriaki Ando and OpenRTM development team,
+2021-07-09 17:33:30,989 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2021-07-09 17:33:30,989 file.manager INFO Copyright (C) 2020, Noriaki Ando and OpenRTM development team,
+2021-07-09 17:33:30,989 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2021-07-09 17:33:30,989 file.manager INFO   All right reserved.
+2021-07-09 17:33:30,989 file.manager INFO Manager starting.
+2021-07-09 17:33:30,989 file.manager INFO Starting local logging.
+2021-07-09 17:33:31,008 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2021-07-09 17:33:35,048 file.ManagerServant INFO Master manager not found
+2021-07-09 17:33:35,048 file.LocalServiceAdmin INFO All the local services are enabled.
+2021-07-09 17:33:35,063 file.manager INFO Component type conf file: Test.conf loaded.
+2021-07-09 17:33:35,063 file.ec_base INFO setRate(1000000.000000) done
+2021-07-09 17:33:35,063 file.ec_base INFO setRate(1000.000000) done
+2021-07-09 17:33:35,063 file.rtobject INFO 1 execution context was created.
+2021-07-09 17:33:35,063 file.rtobject INFO Initial active configuration set is default-set.
+2021-07-09 17:33:42,854 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2021-07-09 17:33:42,854 file.SdoServiceAdmin ERROR type  already exists.
+2021-07-09 17:33:50,029 file.ManagerServant INFO Master manager not found
+2021-07-09 17:33:59,045 file.InPortCorbaCdrConsumer ERROR Traceback (most recent call last):
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\OpenRTM_aist\InPortCorbaCdrConsumer.py", line 157, in put
+    return self.convertReturnCode(inportcdr.put(data))
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\OpenRTM_aist\RTM_IDL\DataPort_idl.py", line 79, in put
+    return self._obj.invoke("put", _0_OpenRTM.InPortCdr._d_put, args)
+omniORB.CORBA._omni_sys_exc: CORBA.TRANSIENT(omniORB.TRANSIENT_ConnectFailed, CORBA.COMPLETED_NO)
+

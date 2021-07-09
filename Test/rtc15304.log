@@ -1,0 +1,46 @@
+2021-07-09 17:27:32,897 file.manager INFO 1.2.2
+2021-07-09 17:27:32,897 file.manager INFO Copyright (C) 2003-2020, Noriaki Ando and OpenRTM development team,
+2021-07-09 17:27:32,897 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2021-07-09 17:27:32,897 file.manager INFO Copyright (C) 2020, Noriaki Ando and OpenRTM development team,
+2021-07-09 17:27:32,897 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2021-07-09 17:27:32,897 file.manager INFO   All right reserved.
+2021-07-09 17:27:32,897 file.manager INFO Manager starting.
+2021-07-09 17:27:32,897 file.manager INFO Starting local logging.
+2021-07-09 17:27:32,913 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2021-07-09 17:27:37,004 file.ManagerServant INFO Master manager not found
+2021-07-09 17:27:37,004 file.LocalServiceAdmin INFO All the local services are enabled.
+2021-07-09 17:27:37,004 file.manager INFO Component type conf file: Test.conf loaded.
+2021-07-09 17:27:37,004 file.ec_base INFO setRate(1000000.000000) done
+2021-07-09 17:27:37,004 file.ec_base INFO setRate(1000.000000) done
+2021-07-09 17:27:37,004 file.rtobject INFO 1 execution context was created.
+2021-07-09 17:27:37,004 file.rtobject INFO Initial active configuration set is default-set.
+2021-07-09 17:27:51,897 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2021-07-09 17:27:51,897 file.SdoServiceAdmin ERROR type  already exists.
+2021-07-09 17:27:51,975 file.ManagerServant INFO Master manager not found
+2021-07-09 17:28:06,990 file.ManagerServant INFO Master manager not found
+2021-07-09 17:28:22,037 file.ManagerServant INFO Master manager not found
+2021-07-09 17:28:36,188 file.angle_output WARNING Traceback (most recent call last):
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\OpenRTM_aist\PortBase.py", line 2297, in checkPorts
+    if port._non_existent():
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\omniORB\CORBA.py", line 559, in _non_existent
+    return self._obj.nonExistent()
+omniORB.CORBA._omni_sys_exc: CORBA.TRANSIENT(omniORB.TRANSIENT_ConnectFailed, CORBA.COMPLETED_NO)
+
+2021-07-09 17:28:36,188 file.angle_output WARNING Dead connection: 8f7d5619-e08f-11eb-82d0-a8b2da7895f3
+2021-07-09 17:28:37,028 file.ManagerServant INFO Master manager not found
+2021-07-09 17:28:38,243 file.angle_output WARNING Traceback (most recent call last):
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\OpenRTM_aist\PortBase.py", line 1659, in disconnectNext
+    return p.notify_disconnect(connector_profile.connector_id)
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\OpenRTM_aist\RTM_IDL\RTC_idl.py", line 1207, in notify_disconnect
+    return self._obj.invoke("notify_disconnect", _0_RTC.PortService._d_notify_disconnect, args)
+omniORB.CORBA._omni_sys_exc: CORBA.TRANSIENT(omniORB.TRANSIENT_ConnectFailed, CORBA.COMPLETED_NO)
+
+2021-07-09 17:28:52,048 file.ManagerServant INFO Master manager not found
+2021-07-09 17:29:07,057 file.ManagerServant INFO Master manager not found
+2021-07-09 17:29:08,076 file.InPortCorbaCdrConsumer ERROR Traceback (most recent call last):
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\OpenRTM_aist\InPortCorbaCdrConsumer.py", line 157, in put
+    return self.convertReturnCode(inportcdr.put(data))
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\OpenRTM_aist\RTM_IDL\DataPort_idl.py", line 79, in put
+    return self._obj.invoke("put", _0_OpenRTM.InPortCdr._d_put, args)
+omniORB.CORBA._omni_sys_exc: CORBA.TRANSIENT(omniORB.TRANSIENT_ConnectFailed, CORBA.COMPLETED_NO)
+

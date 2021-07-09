@@ -1,0 +1,34 @@
+2021-07-09 17:09:48,902 file.manager INFO 1.2.2
+2021-07-09 17:09:48,902 file.manager INFO Copyright (C) 2003-2020, Noriaki Ando and OpenRTM development team,
+2021-07-09 17:09:48,902 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2021-07-09 17:09:48,902 file.manager INFO Copyright (C) 2020, Noriaki Ando and OpenRTM development team,
+2021-07-09 17:09:48,902 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2021-07-09 17:09:48,902 file.manager INFO   All right reserved.
+2021-07-09 17:09:48,902 file.manager INFO Manager starting.
+2021-07-09 17:09:48,902 file.manager INFO Starting local logging.
+2021-07-09 17:09:48,917 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2021-07-09 17:09:53,026 file.ManagerServant INFO Master manager not found
+2021-07-09 17:09:53,026 file.LocalServiceAdmin INFO All the local services are enabled.
+2021-07-09 17:09:53,041 file.manager INFO Component type conf file: Test.conf loaded.
+2021-07-09 17:09:53,041 file.ec_base INFO setRate(1000000.000000) done
+2021-07-09 17:09:53,041 file.ec_base INFO setRate(1000.000000) done
+2021-07-09 17:09:53,041 file.rtobject INFO 1 execution context was created.
+2021-07-09 17:09:53,041 file.rtobject INFO Initial active configuration set is default-set.
+2021-07-09 17:10:07,949 file.ManagerServant INFO Master manager not found
+2021-07-09 17:10:09,839 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2021-07-09 17:10:09,839 file.SdoServiceAdmin ERROR type  already exists.
+2021-07-09 17:10:19,493 file.rtobject ERROR Traceback (most recent call last):
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\OpenRTM_aist\RTObject.py", line 1571, in on_execute
+    ret = self.onExecute(ec_id)
+  File "C:\workspace\Test\Test.py", line 182, in onExecute
+    self._angle_outputOut.write()
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\OpenRTM_aist\OutPort.py", line 187, in write
+    ret = con.write(value)
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\OpenRTM_aist\OutPortPushConnector.py", line 262, in write
+    cdr_data = cdrMarshal(any.to_any(data).typecode(), data, self._endian)
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\omniORB\__init__.py", line 250, in cdrMarshal
+    return _omnipy.cdrMarshal(tc._d, data, endian)
+omniORB.CORBA._omni_sys_exc: CORBA.BAD_PARAM(omniORB.BAD_PARAM_WrongPythonType, CORBA.COMPLETED_NO, ["Expecting double, got <class 'str'>", "Struct 'TimedDouble' member 'data'"])
+
+2021-07-09 17:10:22,961 file.ManagerServant INFO Master manager not found
+2021-07-09 17:10:37,981 file.ManagerServant INFO Master manager not found

@@ -1,0 +1,87 @@
+2021-07-09 17:21:54,511 file.manager INFO 1.2.2
+2021-07-09 17:21:54,511 file.manager INFO Copyright (C) 2003-2020, Noriaki Ando and OpenRTM development team,
+2021-07-09 17:21:54,511 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2021-07-09 17:21:54,511 file.manager INFO Copyright (C) 2020, Noriaki Ando and OpenRTM development team,
+2021-07-09 17:21:54,511 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2021-07-09 17:21:54,511 file.manager INFO   All right reserved.
+2021-07-09 17:21:54,511 file.manager INFO Manager starting.
+2021-07-09 17:21:54,511 file.manager INFO Starting local logging.
+2021-07-09 17:21:54,527 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2021-07-09 17:21:58,627 file.ManagerServant INFO Master manager not found
+2021-07-09 17:21:58,627 file.LocalServiceAdmin INFO All the local services are enabled.
+2021-07-09 17:21:58,627 file.manager INFO Component type conf file: Test.conf loaded.
+2021-07-09 17:21:58,627 file.ec_base INFO setRate(1000000.000000) done
+2021-07-09 17:21:58,627 file.ec_base INFO setRate(1000.000000) done
+2021-07-09 17:21:58,627 file.rtobject INFO 1 execution context was created.
+2021-07-09 17:21:58,627 file.rtobject INFO Initial active configuration set is default-set.
+2021-07-09 17:22:05,580 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2021-07-09 17:22:05,580 file.SdoServiceAdmin ERROR type  already exists.
+2021-07-09 17:22:13,622 file.ManagerServant INFO Master manager not found
+2021-07-09 17:22:28,622 file.ManagerServant INFO Master manager not found
+2021-07-09 17:22:43,676 file.ManagerServant INFO Master manager not found
+2021-07-09 17:22:52,045 file.angle_output WARNING Traceback (most recent call last):
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\OpenRTM_aist\PortBase.py", line 2297, in checkPorts
+    if port._non_existent():
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\omniORB\CORBA.py", line 559, in _non_existent
+    return self._obj.nonExistent()
+omniORB.CORBA._omni_sys_exc: CORBA.TRANSIENT(omniORB.TRANSIENT_ConnectFailed, CORBA.COMPLETED_NO)
+
+2021-07-09 17:22:52,045 file.angle_output WARNING Dead connection: c0dc4b16-e08e-11eb-92a3-a8b2da7895f3
+2021-07-09 17:22:54,105 file.angle_output WARNING Traceback (most recent call last):
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\OpenRTM_aist\PortBase.py", line 1659, in disconnectNext
+    return p.notify_disconnect(connector_profile.connector_id)
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\OpenRTM_aist\RTM_IDL\RTC_idl.py", line 1207, in notify_disconnect
+    return self._obj.invoke("notify_disconnect", _0_RTC.PortService._d_notify_disconnect, args)
+omniORB.CORBA._omni_sys_exc: CORBA.TRANSIENT(omniORB.TRANSIENT_ConnectFailed, CORBA.COMPLETED_NO)
+
+2021-07-09 17:22:58,683 file.ManagerServant INFO Master manager not found
+2021-07-09 17:23:13,694 file.ManagerServant INFO Master manager not found
+2021-07-09 17:23:28,681 file.ManagerServant INFO Master manager not found
+2021-07-09 17:23:43,663 file.ManagerServant INFO Master manager not found
+2021-07-09 17:23:58,686 file.ManagerServant INFO Master manager not found
+2021-07-09 17:24:13,672 file.ManagerServant INFO Master manager not found
+2021-07-09 17:24:28,698 file.ManagerServant INFO Master manager not found
+2021-07-09 17:24:43,673 file.ManagerServant INFO Master manager not found
+2021-07-09 17:24:49,537 file.angle_output WARNING Traceback (most recent call last):
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\OpenRTM_aist\PortBase.py", line 2297, in checkPorts
+    if port._non_existent():
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\omniORB\CORBA.py", line 559, in _non_existent
+    return self._obj.nonExistent()
+omniORB.CORBA._omni_sys_exc: CORBA.TRANSIENT(omniORB.TRANSIENT_ConnectFailed, CORBA.COMPLETED_NO)
+
+2021-07-09 17:24:49,537 file.angle_output WARNING Dead connection: e08b4f12-e08e-11eb-8f79-a8b2da7895f3
+2021-07-09 17:24:58,683 file.ManagerServant INFO Master manager not found
+2021-07-09 17:25:13,786 file.ManagerServant INFO Master manager not found
+2021-07-09 17:25:16,914 file.SdoServiceAdmin INFO SDO service has been deleted: 72d554c7-a42b-43f0-9224-62dbebe84c31
+2021-07-09 17:25:28,993 file.ManagerServant INFO Master manager not found
+2021-07-09 17:25:44,015 file.ManagerServant INFO Master manager not found
+2021-07-09 17:25:59,055 file.ManagerServant INFO Master manager not found
+2021-07-09 17:26:14,069 file.ManagerServant INFO Master manager not found
+2021-07-09 17:26:29,062 file.ManagerServant INFO Master manager not found
+2021-07-09 17:26:44,056 file.ManagerServant INFO Master manager not found
+2021-07-09 17:26:45,181 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', '72d554c7-a42b-43f0-9224-62dbebe84c31')
+2021-07-09 17:26:45,181 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', '72d554c7-a42b-43f0-9224-62dbebe84c31')
+2021-07-09 17:26:48,322 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', '72d554c7-a42b-43f0-9224-62dbebe84c31')
+2021-07-09 17:26:48,322 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', '72d554c7-a42b-43f0-9224-62dbebe84c31')
+2021-07-09 17:26:51,462 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', '72d554c7-a42b-43f0-9224-62dbebe84c31')
+2021-07-09 17:26:51,462 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', '72d554c7-a42b-43f0-9224-62dbebe84c31')
+2021-07-09 17:26:54,617 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', '72d554c7-a42b-43f0-9224-62dbebe84c31')
+2021-07-09 17:26:54,617 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', '72d554c7-a42b-43f0-9224-62dbebe84c31')
+2021-07-09 17:26:57,760 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', '72d554c7-a42b-43f0-9224-62dbebe84c31')
+2021-07-09 17:26:57,760 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', '72d554c7-a42b-43f0-9224-62dbebe84c31')
+2021-07-09 17:26:59,040 file.ManagerServant INFO Master manager not found
+2021-07-09 17:27:00,868 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', '72d554c7-a42b-43f0-9224-62dbebe84c31')
+2021-07-09 17:27:00,868 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', '72d554c7-a42b-43f0-9224-62dbebe84c31')
+2021-07-09 17:27:04,004 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', '72d554c7-a42b-43f0-9224-62dbebe84c31')
+2021-07-09 17:27:04,004 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', '72d554c7-a42b-43f0-9224-62dbebe84c31')
+2021-07-09 17:27:07,128 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', '72d554c7-a42b-43f0-9224-62dbebe84c31')
+2021-07-09 17:27:07,128 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', '72d554c7-a42b-43f0-9224-62dbebe84c31')
+2021-07-09 17:27:10,258 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', '72d554c7-a42b-43f0-9224-62dbebe84c31')
+2021-07-09 17:27:10,258 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', '72d554c7-a42b-43f0-9224-62dbebe84c31')
+2021-07-09 17:27:13,402 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', '72d554c7-a42b-43f0-9224-62dbebe84c31')
+2021-07-09 17:27:13,402 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', '72d554c7-a42b-43f0-9224-62dbebe84c31')
+2021-07-09 17:27:14,058 file.ManagerServant INFO Master manager not found
+2021-07-09 17:27:16,534 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', '72d554c7-a42b-43f0-9224-62dbebe84c31')
+2021-07-09 17:27:16,534 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', '72d554c7-a42b-43f0-9224-62dbebe84c31')
+2021-07-09 17:27:19,664 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', '72d554c7-a42b-43f0-9224-62dbebe84c31')
+2021-07-09 17:27:19,664 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', '72d554c7-a42b-43f0-9224-62dbebe84c31')

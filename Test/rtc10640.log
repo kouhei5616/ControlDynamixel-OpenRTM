@@ -1,0 +1,40 @@
+2021-07-09 17:02:43,651 file.manager INFO 1.2.2
+2021-07-09 17:02:43,651 file.manager INFO Copyright (C) 2003-2020, Noriaki Ando and OpenRTM development team,
+2021-07-09 17:02:43,651 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2021-07-09 17:02:43,651 file.manager INFO Copyright (C) 2020, Noriaki Ando and OpenRTM development team,
+2021-07-09 17:02:43,651 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2021-07-09 17:02:43,651 file.manager INFO   All right reserved.
+2021-07-09 17:02:43,651 file.manager INFO Manager starting.
+2021-07-09 17:02:43,651 file.manager INFO Starting local logging.
+2021-07-09 17:02:43,667 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2021-07-09 17:02:47,753 file.ManagerServant INFO Master manager not found
+2021-07-09 17:02:47,753 file.LocalServiceAdmin INFO All the local services are enabled.
+2021-07-09 17:02:47,768 file.manager INFO Component type conf file: Test.conf loaded.
+2021-07-09 17:02:47,768 file.ec_base INFO setRate(1000000.000000) done
+2021-07-09 17:02:47,768 file.ec_base INFO setRate(1000.000000) done
+2021-07-09 17:02:47,768 file.rtobject INFO 1 execution context was created.
+2021-07-09 17:02:47,784 file.rtobject INFO Initial active configuration set is default-set.
+2021-07-09 17:02:54,941 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2021-07-09 17:02:54,941 file.SdoServiceAdmin ERROR type  already exists.
+2021-07-09 17:03:02,706 file.ManagerServant INFO Master manager not found
+2021-07-09 17:03:17,724 file.ManagerServant INFO Master manager not found
+2021-07-09 17:03:32,742 file.ManagerServant INFO Master manager not found
+2021-07-09 17:03:47,805 file.ManagerServant INFO Master manager not found
+2021-07-09 17:04:02,754 file.ManagerServant INFO Master manager not found
+2021-07-09 17:04:13,020 file.angle_output WARNING Traceback (most recent call last):
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\OpenRTM_aist\PortBase.py", line 2297, in checkPorts
+    if port._non_existent():
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\omniORB\CORBA.py", line 559, in _non_existent
+    return self._obj.nonExistent()
+omniORB.CORBA._omni_sys_exc: CORBA.TRANSIENT(omniORB.TRANSIENT_ConnectFailed, CORBA.COMPLETED_NO)
+
+2021-07-09 17:04:13,020 file.angle_output WARNING Dead connection: 136e5e22-e08c-11eb-a5e9-a8b2da7895f3
+2021-07-09 17:04:15,082 file.angle_output WARNING Traceback (most recent call last):
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\OpenRTM_aist\PortBase.py", line 1659, in disconnectNext
+    return p.notify_disconnect(connector_profile.connector_id)
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\OpenRTM_aist\RTM_IDL\RTC_idl.py", line 1207, in notify_disconnect
+    return self._obj.invoke("notify_disconnect", _0_RTC.PortService._d_notify_disconnect, args)
+omniORB.CORBA._omni_sys_exc: CORBA.TRANSIENT(omniORB.TRANSIENT_ConnectFailed, CORBA.COMPLETED_NO)
+
+2021-07-09 17:04:15,300 file.SdoServiceAdmin INFO SDO service has been deleted: ebc8128a-b33e-4ce3-90f8-64bac40b7727
+2021-07-09 17:04:17,793 file.ManagerServant INFO Master manager not found

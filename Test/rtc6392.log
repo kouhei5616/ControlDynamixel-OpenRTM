@@ -1,0 +1,47 @@
+2021-07-09 17:05:34,803 file.manager INFO 1.2.2
+2021-07-09 17:05:34,803 file.manager INFO Copyright (C) 2003-2020, Noriaki Ando and OpenRTM development team,
+2021-07-09 17:05:34,803 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2021-07-09 17:05:34,803 file.manager INFO Copyright (C) 2020, Noriaki Ando and OpenRTM development team,
+2021-07-09 17:05:34,803 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2021-07-09 17:05:34,803 file.manager INFO   All right reserved.
+2021-07-09 17:05:34,803 file.manager INFO Manager starting.
+2021-07-09 17:05:34,803 file.manager INFO Starting local logging.
+2021-07-09 17:05:34,834 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2021-07-09 17:05:38,911 file.ManagerServant INFO Master manager not found
+2021-07-09 17:05:38,911 file.LocalServiceAdmin INFO All the local services are enabled.
+2021-07-09 17:05:38,927 file.manager INFO Component type conf file: Test.conf loaded.
+2021-07-09 17:05:38,927 file.ec_base INFO setRate(1000000.000000) done
+2021-07-09 17:05:38,927 file.ec_base INFO setRate(1000.000000) done
+2021-07-09 17:05:38,927 file.rtobject INFO 1 execution context was created.
+2021-07-09 17:05:38,943 file.rtobject INFO Initial active configuration set is default-set.
+2021-07-09 17:05:49,849 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2021-07-09 17:05:49,849 file.SdoServiceAdmin ERROR type  already exists.
+2021-07-09 17:05:53,849 file.ManagerServant INFO Master manager not found
+2021-07-09 17:06:08,834 file.ManagerServant INFO Master manager not found
+2021-07-09 17:06:23,840 file.ManagerServant INFO Master manager not found
+2021-07-09 17:06:35,570 file.ec_base ERROR The component is not responding.
+2021-07-09 17:06:35,570 file.ec_base ERROR Unknown error: Invalid state transition.
+2021-07-09 17:06:38,006 file.angle_output WARNING Traceback (most recent call last):
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\OpenRTM_aist\PortBase.py", line 2297, in checkPorts
+    if port._non_existent():
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\omniORB\CORBA.py", line 559, in _non_existent
+    return self._obj.nonExistent()
+omniORB.CORBA._omni_sys_exc: CORBA.TRANSIENT(omniORB.TRANSIENT_ConnectFailed, CORBA.COMPLETED_NO)
+
+2021-07-09 17:06:38,006 file.angle_output WARNING Dead connection: 7ca77dda-e08c-11eb-b8eb-a8b2da7895f3
+2021-07-09 17:06:38,866 file.ManagerServant INFO Master manager not found
+2021-07-09 17:06:40,053 file.angle_output WARNING Traceback (most recent call last):
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\OpenRTM_aist\PortBase.py", line 1659, in disconnectNext
+    return p.notify_disconnect(connector_profile.connector_id)
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\OpenRTM_aist\RTM_IDL\RTC_idl.py", line 1207, in notify_disconnect
+    return self._obj.invoke("notify_disconnect", _0_RTC.PortService._d_notify_disconnect, args)
+omniORB.CORBA._omni_sys_exc: CORBA.TRANSIENT(omniORB.TRANSIENT_ConnectFailed, CORBA.COMPLETED_NO)
+
+2021-07-09 17:06:51,395 file.ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2021-07-09 17:06:53,867 file.ManagerServant INFO Master manager not found
+2021-07-09 17:07:08,930 file.ManagerServant INFO Master manager not found
+2021-07-09 17:07:16,118 file.SdoServiceAdmin INFO SDO service has been deleted: 14df7952-782c-4f6b-bfb1-aee278579123
+2021-07-09 17:07:20,663 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2021-07-09 17:07:20,663 file.SdoServiceAdmin ERROR type  already exists.
+2021-07-09 17:07:23,928 file.ManagerServant INFO Master manager not found
+2021-07-09 17:07:26,974 file.SdoServiceAdmin INFO SDO service has been deleted: eafa6282-4835-4c69-a5fe-3dc56afdd430

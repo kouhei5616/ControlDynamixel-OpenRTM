@@ -1,0 +1,77 @@
+2021-07-09 16:51:01,171 file.manager INFO 1.2.2
+2021-07-09 16:51:01,171 file.manager INFO Copyright (C) 2003-2020, Noriaki Ando and OpenRTM development team,
+2021-07-09 16:51:01,171 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2021-07-09 16:51:01,171 file.manager INFO Copyright (C) 2020, Noriaki Ando and OpenRTM development team,
+2021-07-09 16:51:01,171 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2021-07-09 16:51:01,171 file.manager INFO   All right reserved.
+2021-07-09 16:51:01,171 file.manager INFO Manager starting.
+2021-07-09 16:51:01,171 file.manager INFO Starting local logging.
+2021-07-09 16:51:01,186 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2021-07-09 16:51:05,266 file.ManagerServant INFO Master manager not found
+2021-07-09 16:51:05,266 file.LocalServiceAdmin INFO All the local services are enabled.
+2021-07-09 16:51:05,266 file.manager INFO Component type conf file: Test.conf loaded.
+2021-07-09 16:51:05,281 file.ec_base INFO setRate(1000000.000000) done
+2021-07-09 16:51:05,281 file.ec_base INFO setRate(1000.000000) done
+2021-07-09 16:51:05,281 file.rtobject INFO 1 execution context was created.
+2021-07-09 16:51:05,281 file.rtobject INFO Initial active configuration set is default-set.
+2021-07-09 16:51:20,202 file.ManagerServant INFO Master manager not found
+2021-07-09 16:51:24,186 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2021-07-09 16:51:24,186 file.SdoServiceAdmin ERROR type  already exists.
+2021-07-09 16:51:35,255 file.ManagerServant INFO Master manager not found
+2021-07-09 16:51:50,227 file.ManagerServant INFO Master manager not found
+2021-07-09 16:52:05,255 file.ManagerServant INFO Master manager not found
+2021-07-09 16:52:08,844 file.ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2021-07-09 16:52:12,374 file.angle_output WARNING Traceback (most recent call last):
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\OpenRTM_aist\PortBase.py", line 2297, in checkPorts
+    if port._non_existent():
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\omniORB\CORBA.py", line 559, in _non_existent
+    return self._obj.nonExistent()
+omniORB.CORBA._omni_sys_exc: CORBA.TRANSIENT(omniORB.TRANSIENT_ConnectFailed, CORBA.COMPLETED_NO)
+
+2021-07-09 16:52:12,374 file.angle_output WARNING Dead connection: 7781b779-e08a-11eb-bc94-a8b2da7895f3
+2021-07-09 16:52:14,546 file.angle_output WARNING Traceback (most recent call last):
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\OpenRTM_aist\PortBase.py", line 1659, in disconnectNext
+    return p.notify_disconnect(connector_profile.connector_id)
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\OpenRTM_aist\RTM_IDL\RTC_idl.py", line 1207, in notify_disconnect
+    return self._obj.invoke("notify_disconnect", _0_RTC.PortService._d_notify_disconnect, args)
+omniORB.CORBA._omni_sys_exc: CORBA.TRANSIENT(omniORB.TRANSIENT_ConnectFailed, CORBA.COMPLETED_NO)
+
+2021-07-09 16:52:20,246 file.ManagerServant INFO Master manager not found
+2021-07-09 16:52:24,808 file.ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2021-07-09 16:52:35,240 file.ManagerServant INFO Master manager not found
+2021-07-09 16:52:50,222 file.ManagerServant INFO Master manager not found
+2021-07-09 16:53:05,257 file.ManagerServant INFO Master manager not found
+2021-07-09 16:53:17,208 file.SdoServiceAdmin INFO SDO service has been deleted: fd3252ae-2c16-4a82-9d7a-48aae2c079b7
+2021-07-09 16:53:20,289 file.ManagerServant INFO Master manager not found
+2021-07-09 16:53:22,648 file.angle_output WARNING Traceback (most recent call last):
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\OpenRTM_aist\PortBase.py", line 2297, in checkPorts
+    if port._non_existent():
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\omniORB\CORBA.py", line 559, in _non_existent
+    return self._obj.nonExistent()
+omniORB.CORBA._omni_sys_exc: CORBA.TRANSIENT(omniORB.TRANSIENT_ConnectFailed, CORBA.COMPLETED_NO)
+
+2021-07-09 16:53:22,648 file.angle_output WARNING Dead connection: 9827a207-e08a-11eb-8818-a8b2da7895f3
+2021-07-09 16:53:24,679 file.angle_output WARNING Traceback (most recent call last):
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\OpenRTM_aist\PortBase.py", line 1659, in disconnectNext
+    return p.notify_disconnect(connector_profile.connector_id)
+  File "C:\Users\kouhe\AppData\Local\Programs\Python\Python38\lib\site-packages\OpenRTM_aist\RTM_IDL\RTC_idl.py", line 1207, in notify_disconnect
+    return self._obj.invoke("notify_disconnect", _0_RTC.PortService._d_notify_disconnect, args)
+omniORB.CORBA._omni_sys_exc: CORBA.TRANSIENT(omniORB.TRANSIENT_ConnectFailed, CORBA.COMPLETED_NO)
+
+2021-07-09 16:53:24,710 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2021-07-09 16:53:24,710 file.SdoServiceAdmin ERROR type  already exists.
+2021-07-09 16:53:31,061 file.ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2021-07-09 16:53:35,364 file.ManagerServant INFO Master manager not found
+2021-07-09 16:53:50,391 file.ManagerServant INFO Master manager not found
+2021-07-09 16:54:05,542 file.ManagerServant INFO Master manager not found
+2021-07-09 16:54:20,512 file.ManagerServant INFO Master manager not found
+2021-07-09 16:54:35,571 file.ManagerServant INFO Master manager not found
+2021-07-09 16:54:50,599 file.ManagerServant INFO Master manager not found
+2021-07-09 16:55:05,595 file.ManagerServant INFO Master manager not found
+2021-07-09 16:55:20,607 file.ManagerServant INFO Master manager not found
+2021-07-09 16:55:35,630 file.ManagerServant INFO Master manager not found
+2021-07-09 16:55:50,648 file.ManagerServant INFO Master manager not found
+2021-07-09 16:56:05,615 file.ManagerServant INFO Master manager not found
+2021-07-09 16:56:21,137 file.ManagerServant INFO Master manager not found
+2021-07-09 16:56:36,171 file.ManagerServant INFO Master manager not found
+2021-07-09 16:56:51,180 file.ManagerServant INFO Master manager not found

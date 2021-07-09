@@ -1,0 +1,42 @@
+2021-07-09 17:31:13,677 file.manager INFO 1.2.2
+2021-07-09 17:31:13,677 file.manager INFO Copyright (C) 2003-2020, Noriaki Ando and OpenRTM development team,
+2021-07-09 17:31:13,677 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2021-07-09 17:31:13,677 file.manager INFO Copyright (C) 2020, Noriaki Ando and OpenRTM development team,
+2021-07-09 17:31:13,677 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2021-07-09 17:31:13,677 file.manager INFO   All right reserved.
+2021-07-09 17:31:13,677 file.manager INFO Manager starting.
+2021-07-09 17:31:13,677 file.manager INFO Starting local logging.
+2021-07-09 17:31:13,696 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2021-07-09 17:31:17,786 file.ManagerServant INFO Master manager not found
+2021-07-09 17:31:17,786 file.LocalServiceAdmin INFO All the local services are enabled.
+2021-07-09 17:31:17,801 file.manager INFO Component type conf file: Test.conf loaded.
+2021-07-09 17:31:17,801 file.ec_base INFO setRate(1000000.000000) done
+2021-07-09 17:31:17,801 file.ec_base INFO setRate(1000.000000) done
+2021-07-09 17:31:17,801 file.rtobject INFO 1 execution context was created.
+2021-07-09 17:31:17,817 file.rtobject INFO Initial active configuration set is default-set.
+2021-07-09 17:31:25,968 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2021-07-09 17:31:25,968 file.SdoServiceAdmin ERROR type  already exists.
+2021-07-09 17:31:32,692 file.ManagerServant INFO Master manager not found
+2021-07-09 17:31:47,190 file.SdoServiceAdmin INFO SDO service has been deleted: cfb43f41-267b-4910-99ed-ad7bc49d6c19
+2021-07-09 17:31:47,671 file.ManagerServant INFO Master manager not found
+2021-07-09 17:32:02,658 file.ManagerServant INFO Master manager not found
+2021-07-09 17:32:10,467 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', 'cfb43f41-267b-4910-99ed-ad7bc49d6c19')
+2021-07-09 17:32:10,467 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', 'cfb43f41-267b-4910-99ed-ad7bc49d6c19')
+2021-07-09 17:32:13,604 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', 'cfb43f41-267b-4910-99ed-ad7bc49d6c19')
+2021-07-09 17:32:13,604 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', 'cfb43f41-267b-4910-99ed-ad7bc49d6c19')
+2021-07-09 17:32:16,731 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', 'cfb43f41-267b-4910-99ed-ad7bc49d6c19')
+2021-07-09 17:32:16,731 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', 'cfb43f41-267b-4910-99ed-ad7bc49d6c19')
+2021-07-09 17:32:17,631 file.ManagerServant INFO Master manager not found
+2021-07-09 17:32:19,869 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', 'cfb43f41-267b-4910-99ed-ad7bc49d6c19')
+2021-07-09 17:32:19,869 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', 'cfb43f41-267b-4910-99ed-ad7bc49d6c19')
+2021-07-09 17:32:22,993 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', 'cfb43f41-267b-4910-99ed-ad7bc49d6c19')
+2021-07-09 17:32:22,993 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', 'cfb43f41-267b-4910-99ed-ad7bc49d6c19')
+2021-07-09 17:32:26,147 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', 'cfb43f41-267b-4910-99ed-ad7bc49d6c19')
+2021-07-09 17:32:26,147 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', 'cfb43f41-267b-4910-99ed-ad7bc49d6c19')
+2021-07-09 17:32:29,266 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', 'cfb43f41-267b-4910-99ed-ad7bc49d6c19')
+2021-07-09 17:32:29,266 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', 'cfb43f41-267b-4910-99ed-ad7bc49d6c19')
+2021-07-09 17:32:32,418 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', 'cfb43f41-267b-4910-99ed-ad7bc49d6c19')
+2021-07-09 17:32:32,418 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', 'cfb43f41-267b-4910-99ed-ad7bc49d6c19')
+2021-07-09 17:32:32,621 file.ManagerServant INFO Master manager not found
+2021-07-09 17:32:35,559 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', 'cfb43f41-267b-4910-99ed-ad7bc49d6c19')
+2021-07-09 17:32:35,559 file.SdoServiceAdmin WARNING ('Specified SDO consumer not found: %s', 'cfb43f41-267b-4910-99ed-ad7bc49d6c19')
