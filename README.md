@@ -2,8 +2,11 @@
 
 ## 概要
 Dynamixelを位置制御するOpenRTMコンポーネントです。<br>
+
+## 使い方
 name-serverを起動後にControlDynamixel.pyを起動して、OpenRTMで配置してください。
 
+## コンポーネントの説明
 ・ControlDynamixel<br>
 　pythonで作成したDynamixelを制御するコンポーネント<br>
 　入力：angle_input　位置制御の角度指令[deg]<br>
