@@ -1,8 +1,8 @@
-# ControlDynamixel-OpenRTM
+# ControlDynamixel-OpenRTM<br>
 
 ## 概要<br>
 PCからDynamixelを拡張位置制御するOpenRTMコンポーネントです。<br>
-pythonのserialモジュールと[dynamixel_sdk](https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/)モジュールを使用しています。(既にファイルの中に組み込まれています)<br>
+pythonのserialモジュールと[dynamixel_sdk](https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/)モジュールを使用しています。（既にファイルの中に組み込まれています）<br>
 
 ## 必要なもの<br>
 ・Linux/Windows/MacOS搭載のPC<br>
@@ -35,7 +35,7 @@ pythonのserialモジュールと[dynamixel_sdk](https://emanual.robotis.com/doc
 ６．OpenRTMでパラメータの設定・接続・アクティブ化する。<br>
 
 
-## コンポーネントの説明
+## コンポーネントの説明<br>
 ・ControlDynamixel<br>
 　pythonで作成したDynamixelを制御するコンポーネント<br>
 　入力：angle_input　位置制御の角度指令[deg]<br>
