@@ -26,7 +26,7 @@ pythonのserialモジュールと[dynamixel_sdk](https://emanual.robotis.com/doc
 ３．シリアルポートの名前を確認する。<br>
 　　Windows：'COM1'など<br>
 　　MacOS：'usbserial-123456'など<br>
-　　Linux：'/dev/ttyUSB0'など<br>
+　　Linux：'/dev/ttyUSB0'など（シリアルポートの許可設定が必要）<br>
   
 ４．Name Serverを起動する。<br>
 
